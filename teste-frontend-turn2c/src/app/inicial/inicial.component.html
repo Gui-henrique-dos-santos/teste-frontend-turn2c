@@ -1,0 +1,6 @@
+<div *ngFor="let dog of dogs">
+  <img [src]="dog.url" alt="Dog">
+  <p>Name: {{ dog.breeds[0].name }}</p>
+  <p>Life Span: {{ dog.breeds[0].life_span }}</p>
+</div>
+
